@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/login
+
+X-CSRF-TOKEN: "JZhdDNn5gQUp0gsJkZ8WYKqh05oXZvghEt00sb0q"
+
+
+
+###
+GET http://127.0.0.1:8000/test
+
+Content-Type: application/json
+

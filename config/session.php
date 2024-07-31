@@ -86,7 +86,7 @@ return [
     |
     */
 
-    'table' => env('SESSION_TABLE', 'sessions'),
+    'table' => 'sessions_student',//env('SESSION_TABLE', 'sessions_student'),
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +101,7 @@ return [
     |
     */
 
-    'store' => env('SESSION_STORE'),
+    'store' => 'sessions_teacher',//env('SESSION_STORE'),
 
     /*
     |--------------------------------------------------------------------------
