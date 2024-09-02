@@ -25,3 +25,9 @@ Route::get('/archive', [ApiController::class, 'archive']);
 
 Route::post('/assign', [ApiController::class, 'assign']);
 
+Route::post('/chats', [ApiController::class, 'chats']);
+
+Route::post('/stats', [ApiController::class, 'stats']);
+
+Route::get('/stats', [ApiController::class, 'retriveStats']);
+
