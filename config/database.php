@@ -83,7 +83,7 @@ return [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
             'host' => env('DB_HOST', 'dpg-crauo25ds78s73dagpq0-a'),
-            'port' => env('DB_PORT', '5432'),
+            'port' =>  '5432',
             'database' => env('DB_DATABASE', 'school_db_rh3t'),
             'username' => env('DB_USERNAME', 'fabio'),
             'password' => env('DB_PASSWORD', 'uvk8FUkW2cCzoZT2ixeg6v6apLrgIIdf'),
