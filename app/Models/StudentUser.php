@@ -21,7 +21,7 @@ class StudentUser extends Authenticatable
       'name',
       'email',
       'password',
-      'type'
+      
   ];
 
   /**

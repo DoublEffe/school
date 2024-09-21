@@ -18,11 +18,11 @@ class ApiController extends Controller {
     {
         //$user = $request->getSubjects();
         //$user = $request->session()->all();
-        $class = DB::table('class')->where('id_student', $request['id'])->first();
+        $class = DB::table('class')->where('id_student', Auth::user()->id)->first();
         $subs = DB::table('subjects')->where('id_class', $class->id)->get();
         
 
-        Log::debug($subs);
+        Log::debug(Auth::user());
         
       
         return response()->json(['subs'=>$subs]);
@@ -58,7 +58,7 @@ class ApiController extends Controller {
     }
     public function class(Request $request): JsonResponse {
       Log::info($request);
-      $class= DB::table('class')->where('id_teacher', $request['id'])->get();
+      $class= DB::table('class')->where('id_teacher', Auth::user()->id)->get();
       Log::info($class);
       return response()->json(['classes'=> $class]);
     }

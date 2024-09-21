@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rules;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\Log;
+
 
 class NewPasswordController extends Controller
 {
@@ -20,7 +22,7 @@ class NewPasswordController extends Controller
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request): JsonResponse
-    {
+    {   Log::info($request);
         $request->validate([
             'token' => ['required'],
             'email' => ['required', 'email'],

@@ -22,7 +22,7 @@ class PasswordResetTest extends TestCase
 
         Notification::assertSentTo($user, ResetPassword::class);
     }
-
+    
     public function test_password_can_be_reset_with_valid_token(): void
     {
         Notification::fake();

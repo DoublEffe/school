@@ -14,8 +14,8 @@ return [
     */
 
     'defaults' => [
-        'guard' => env('AUTH_GUARD', 'student'),
-        'passwords' => env('AUTH_PASSWORD_BROKER', 'student_users'),
+        'guard' => env('AUTH_GUARD', 'web'),
+        'passwords' => env('AUTH_PASSWORD_BROKER', 'users'),
     ],
 
     /*
@@ -36,18 +36,18 @@ return [
     */
 
     'guards' => [
-        //'web' => [
-        //    'driver' => 'session',
-        //    'provider' => 'users',
-        //],
-        'teacher' => [
+        'web' => [
+            'driver' => 'session',
+            'provider' => 'users',
+        ],
+        /*'teacher' => [
             'driver' => 'session',
             'provider' => 'teacher_users',
         ],
         'student' => [
             'driver' => 'session',
             'provider' => 'student_users',
-        ],
+        ],*/
     ],
 
     /*
@@ -68,19 +68,19 @@ return [
     */
 
     'providers' => [
-        'teacher_users' => [
+        /*'teacher_users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Models\TeacherUser::class) //App\Models\User::class),
         ],
         'student_users' => [
             'driver' => 'eloquent',
             'model' =>  App\Models\StudentUser::class //App\Models\User::class),env('AUTH_MODEL',
-        ],
+        ],*/
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'users' => [
+             'driver' => 'eloquent',
+             'model' => App\Models\User::class,
+        ],
     ],
 
     /*
@@ -104,8 +104,8 @@ return [
 
     'passwords' => [
         'users' => [
-            'provider' => 'teacher_users',
-            'table' => env('AUTH_PASSWORD_RESET_TOKEN_TABLE', 'password_reset_tokens'),
+            'provider' => 'users',
+            'table' => env('AUTH_PASSWORD_RESET_TOKEN_TABLE', 'password_reset_tokens_users'),
             'expire' => 60,
             'throttle' => 60,
         ],

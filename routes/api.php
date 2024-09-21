@@ -9,7 +9,7 @@ Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/subjects', [ApiController::class, 'subjects']);
+Route::get('/subjects', [ApiController::class, 'subjects']);
 
 Route::post('/exercise', [ApiController::class, 'exercise']);
 
