@@ -46,33 +46,14 @@ class LoginRequest extends FormRequest
     public function authenticate(): void
     {
         $credentials = $this->only('email', 'password', 'type');
-        /*if($credentials['type'] === 'Studente') {
-          $guard = 'student';
-          $user = StudentUser::where('email', $credentials['email'])->first();
-
-        }
-        else if  ($credentials['type'] === 'Insegnante')  {
-          $guard = 'teacher';
-          $user = TeacherUser::where('email', $credentials['email'])->first();
-        }*/
-        
-        $user = User::where('email', $credentials['email'])->first();
-        Log::info('User found: ' . $user->email);
-        Log::info('db Password: ' . $user->password);
-        Log::info('Password form: ' . Hash::make($credentials['password']));
-        Log::info('Password Matches: ' . (Hash::check($credentials['password'], $user->password) ? 'true' : 'false'));
-        Log::info(' ');
-        //guard($guard)->
         $this->ensureIsNotRateLimited();
         $credentials = $this->only('email', 'password');
         if (! Auth::guard('web')->attempt($credentials, $this->boolean('remember'))) {
             RateLimiter::hit($this->throttleKey());
-
             throw ValidationException::withMessages([
                 'email' => __('auth.failed'),
             ]);
         }
-        Log::info(' boooooooooooooooooo');
         
         RateLimiter::clear($this->throttleKey());
     }

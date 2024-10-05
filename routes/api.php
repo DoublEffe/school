@@ -1,33 +1,41 @@
 <?php
 
 use App\Http\Controllers\Api\ApiController;
+use App\Http\Controllers\Api\ApiStudentController;
+use App\Http\Controllers\Api\ApiTeacherController;
 use App\Http\Middleware\SetSessionTable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
-    return $request->user();
+//Using controller for student routes
+Route::controller(ApiStudentController::class)->group(function() {
+  
+  Route::get('/subjects', 'subjects');
+
+  Route::post('/exercise', 'exercise');
+  
+  Route::post('/answer', 'answer');
+  
+  Route::post('/chats', 'chats');
+  
+  Route::post('/stats', 'stats');
 });
 
-Route::get('/subjects', [ApiController::class, 'subjects']);
+//Using controller for teacher routes
+Route::controller(ApiTeacherController::class)->group(function() {
+  
+  Route::get('/classes',  'class');
+  
+  Route::post('/stuans', 'student_answer');
+  
+  Route::post('/evaluate', 'evaluation');
+  
+  Route::get('/archive', 'archive');
+  
+  Route::post('/assign', 'assign');
+  
+  Route::get('/stats', 'retriveStats');
+});
 
-Route::post('/exercise', [ApiController::class, 'exercise']);
 
-Route::post('/answer', [ApiController::class, 'answer']);
-
-Route::post('/classes', [ApiController::class, 'class']);
-
-Route::post('/stuans', [ApiController::class, 'student_answer']);
-
-Route::post('/evaluate', [ApiController::class, 'evaluation']);
-
-Route::get('/archive', [ApiController::class, 'archive']);
-
-Route::post('/assign', [ApiController::class, 'assign']);
-
-Route::post('/chats', [ApiController::class, 'chats']);
-
-Route::post('/stats', [ApiController::class, 'stats']);
-
-Route::get('/stats', [ApiController::class, 'retriveStats']);
 

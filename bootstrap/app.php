@@ -27,9 +27,7 @@ return Application::configure(basePath: dirname(__DIR__))
         'stripe/*',
         'http://example.com/foo/bar',
         'http://example.com/foo/*',
-        //'http://localhost:8000/login',
-        'http://localhost:8000/api/settab',
-    ]);
+      ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
 

@@ -22,7 +22,9 @@ class NewPasswordController extends Controller
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request): JsonResponse
-    {   Log::info($request);
+    {     
+        Log::info($request);
+        Log::info('new password');
         $request->validate([
             'token' => ['required'],
             'email' => ['required', 'email'],

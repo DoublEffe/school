@@ -19,7 +19,9 @@ class PasswordResetLinkController extends Controller
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request): JsonResponse
-    {   Log::info($request);
+    {   
+        Log::info('reset');
+        Log::info($request);
         $request->validate([
             'email' => ['required', 'email'],
         ]);
