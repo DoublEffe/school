@@ -3,6 +3,7 @@
 use App\Http\Controllers\AngularController;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/bootstrap-italia/i18n/it.json', function () {
     //resource_path('public/assets/angular/browser/bootstrap-italia/i18n/it.json')
     return response()->json([
@@ -169,4 +170,3 @@ Route::get('/bootstrap-italia/i18n/it.json', function () {
 
 require __DIR__.'/auth.php';
 Route::any('/{any}', [AngularController::class, 'index'])->where('any', '^(?!api).*$');
-
