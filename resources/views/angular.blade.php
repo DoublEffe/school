@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="csrf-token" content="fhysfwlB7wdN1upxo5pJdpZE1pNPbBH7uAVXF3XS">
-<link rel="stylesheet" href="/assets/angular/browser/styles.css"></head>
+<link rel="stylesheet" href="/assets/angular/browser/styles-2VLWZS7Y.css"></head>
 <body>
   <app-root></app-root>
-<link rel="modulepreload" href="/assets/angular/browser/chunk-ZRGEC7YV.js"><link rel="modulepreload" href="/assets/angular/browser/chunk-7WUAF6T5.js"><script src="/assets/angular/browser/polyfills.js" type="module"></script><script src="/assets/angular/browser/main.js" type="module"></script></body>
+<link rel="modulepreload" href="/assets/angular/browser/chunk-6VQ6PHTK.js"><link rel="modulepreload" href="/assets/angular/browser/chunk-6W7VELQ7.js"><script src="/assets/angular/browser/polyfills-6EAL64PA.js" type="module"></script><script src="/assets/angular/browser/main-2RVQKZU3.js" type="module"></script></body>
 </html>
 
 

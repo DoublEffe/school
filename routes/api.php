@@ -1,10 +1,7 @@
 <?php
 
-use App\Http\Controllers\Api\ApiController;
 use App\Http\Controllers\Api\ApiStudentController;
 use App\Http\Controllers\Api\ApiTeacherController;
-use App\Http\Middleware\SetSessionTable;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
