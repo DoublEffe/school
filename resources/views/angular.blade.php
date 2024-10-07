@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/assets/angular/browser/styles-2VLWZS7Y.css"></head>
 <body>
   <app-root></app-root>
-<link rel="modulepreload" href="/assets/angular/browser/chunk-D24RSDDE.js"><link rel="modulepreload" href="/assets/angular/browser/chunk-6W7VELQ7.js"><script src="/assets/angular/browser/polyfills-6EAL64PA.js" type="module"></script><script src="/assets/angular/browser/main-NTQOZ4L2.js" type="module"></script></body>
+<link rel="modulepreload" href="/assets/angular/browser/chunk-D24RSDDE.js"><link rel="modulepreload" href="/assets/angular/browser/chunk-6W7VELQ7.js"><script src="/assets/angular/browser/polyfills-6EAL64PA.js" type="module"></script><script src="/assets/angular/browser/main-2VCZTKJD.js" type="module"></script></body>
 </html>
 
 
