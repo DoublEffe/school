@@ -82,29 +82,26 @@ Ogni credenziale verrà fornita dall'istituto scolastico all'iscrizione, essendo
 Saranno 2 studenti, 2 insegnanti e 2 classi.
 
 Studente 1:
-
-    ```
-    
+    ```sh
     email: studente1@test.com
-    
+    ```
+    ```sh
     password: password
     ```
     
 Studente 2:
-
-    ```
-    
+    ```sh
     email: studente2@test.com
-    
+    ```
+    ```sh
     password: password
     ```
     
 Insegnate 1:
-
-    ```
-    
+    ```sh
     email: insegnante1@test.com
-    
+    ```
+    ```sh
     password: password
     ```
     
