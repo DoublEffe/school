@@ -10,14 +10,14 @@
   <p align="center">
     Una pagina web per supportare sia insegnanti che studenti della scuola pubblica italiana.
     <br />
-    <a href=""><strong>Escplora la documentazione »</strong></a>
+    <a href="https://github.com/DoublEffe/school/blob/main/README.md"><strong>Escplora la documentazione »</strong></a>
     <br />
     <br />
-    <a href="">Demo</a>
+    <a href="https://school-uzyr.onrender.com">Demo</a>
     ·
-    <a href="">Riporta bug</a>
+    <a href="https://github.com/DoublEffe/school/issues">Riporta bug</a>
     ·
-    <a href="">Richiedi Feature</a>
+    <a href="https://github.com/DoublEffe/school/issues">Richiedi Feature</a>
   </p>
 </div>
 
@@ -76,7 +76,7 @@ inoltre il frontend è stato sviluppato usando il kit angular conforme alle Line
 
 La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno immettere email, password e se si intende efettuare il login come insegnate o studente.
 
-![Login screen shoot]()
+![Login screen shoot](https://github.com/DoublEffe/school/blob/main/images/login.png)
 
 Ogni credenziale verrà fornita dall'istituto scolastico all'iscrizione
 
@@ -86,15 +86,15 @@ La sezione Studente è divisa in due parti:
 
 * selezione delle materie per accedere agli esercizi.
 
-![student main page]()
+![student main page](https://github.com/DoublEffe/school/blob/main/images/studente1.png)
 
-  * una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
+  - una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
 
-  ![student exercise page]()
+  ![student exercise page](https://github.com/DoublEffe/school/blob/main/images/studente1-1.png)
 
 * chat con IA.
 
-![student chat]()
+![student chat](https://github.com/DoublEffe/school/blob/main/images/studente2.png)
 
 
 
@@ -104,19 +104,19 @@ La sezione Insegnante è divisa in tre parti:
 
 * sezione principale dove compare la lista delle classi tenute dall'insegnante.
 
-![teacher main page]()
+![teacher main page](https://github.com/DoublEffe/school/blob/main/images/insegnante1.png)
 
-  * una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
+  - una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
 
-  ![teacher exercise page]()
+  ![teacher exercise page](https://github.com/DoublEffe/school/blob/main/images/insegnante1-1.png)
 
 * assegnazione esercizi per materie e classe.
 
-  ![teacher assign page]()
+  ![teacher assign page](https://github.com/DoublEffe/school/blob/main/images/insegnante2.png)
 
 * pagina di statistiche per tema.
 
-![teacher statistics page]()
+![teacher statistics page](https://github.com/DoublEffe/school/blob/main/images/insegnate3.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
