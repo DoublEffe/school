@@ -106,7 +106,7 @@ Insegnate 2:
     ```
     
 CLassi:
-    I sez. A
+    I sez. A ,
     I sez. B
 
 ### Studente
