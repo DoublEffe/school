@@ -78,22 +78,45 @@ La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno imm
 
 ![Login screen shoot]()
 
+Ogni credenziale verrà fornita dall'istituto scolastico all'iscrizione
+
 ### Studente
 
-La sezione Studente è divisa in due una selezione delle materie per accedere agli esercizi e quella per accedere alla chat IA.
+La sezione Studente è divisa in due parti: 
+
+* selezione delle materie per accedere agli esercizi.
 
 ![student main page]()
+
+  * una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
+
+  ![student exercise page]()
+
+* chat con IA.
+
 ![student chat]()
 
-Selezionando una materia si accede agli esercizi corrispondenti alla materia.
 
-![student subject page]()
 
 ### Insegnante
 
+La sezione Insegnante è divisa in tre parti:
 
+* sezione principale dove compare la lista delle classi tenute dall'insegnante.
 
-![posts page]()
+![teacher main page]()
+
+  * una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
+
+  ![teacher exercise page]()
+
+* assegnazione esercizi per materie e classe.
+
+  ![teacher assign page]()
+
+* pagina di statistiche per tema.
+
+![teacher statistics page]()
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
