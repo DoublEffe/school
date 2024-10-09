@@ -132,5 +132,5 @@ La sezione Insegnante è divisa in tre parti:
 [Angular-material.io]: https://design-angular-kit.vercel.app/design-angular-kit#/info/welcome
 [Laravel]: https://img.shields.io/badge/Laravel-DD0031?style=for-the-badge&logo=laravel&logoColor=white
 [laravel]: https://laravel.com/
-[postGreSQL]: https://img.shields.io/badge/PostGreSQL-8A2BE2
+[postGreSQL]: https://img.shields.io/badge/PostgreSQl-DD0031?style=for-the-badge&logo=postgresql&logoColor=white
 [postgresql]: https://www.postgresql.org/
