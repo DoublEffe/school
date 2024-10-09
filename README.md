@@ -70,7 +70,7 @@ inoltre il frontend è stato sviluppato usando il kit angular conforme alle Line
 <!-- USAGE EXAMPLES -->
 ## Come Usare
 
-La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno immettere email, password e se si intende efettuare il login come insegnate o studente.
+La prima cosa che si vede all'apertura è la pagina di login dove si dovranno immettere email, password e se si intende effettuare il login come insegnante o studente.
 
 ![Login screen shoot](https://github.com/DoublEffe/school/blob/main/images/login.png)
 
