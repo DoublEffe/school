@@ -88,9 +88,9 @@ La sezione Studente è divisa in due parti:
 
 ![student main page](https://github.com/DoublEffe/school/blob/main/images/studente1.png)
 
-  - una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
+    - una volta selezionata la materia la pagina ci mostrerà gli esercizi associati ad essa assegnati dall'insegnante.
 
-  ![student exercise page](https://github.com/DoublEffe/school/blob/main/images/studente1-1.png)
+    ![student exercise page](https://github.com/DoublEffe/school/blob/main/images/studente1-1.png)
 
 * chat con IA.
 
@@ -106,9 +106,9 @@ La sezione Insegnante è divisa in tre parti:
 
 ![teacher main page](https://github.com/DoublEffe/school/blob/main/images/insegnante1.png)
 
-  - una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
+    - una volta selezionata la classela pagina ci mostrerà le risposte date dagli studenti.
 
-  ![teacher exercise page](https://github.com/DoublEffe/school/blob/main/images/insegnante1-1.png)
+    ![teacher exercise page](https://github.com/DoublEffe/school/blob/main/images/insegnante1-1.png)
 
 * assegnazione esercizi per materie e classe.
 
