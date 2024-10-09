@@ -81,15 +81,15 @@ La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno imm
 Ogni credenziale verrà fornita dall'istituto scolastico all'iscrizione, essendo questa una demo di seguito ci sono le credenziali.
 Saranno 2 studenti, 2 insegnanti e 2 classi.
 
-Studente 1:
+* Studente 1:
     ```sh
     email: studente1@test.com
-    ```
+    ```  
     ```sh
     password: password
     ```
     
-Studente 2:
+* Studente 2:
     ```sh
     email: studente2@test.com
     ```
@@ -97,7 +97,7 @@ Studente 2:
     password: password
     ```
     
-Insegnate 1:
+* Insegnate 1:
     ```sh
     email: insegnante1@test.com
     ```
@@ -105,7 +105,7 @@ Insegnate 1:
     password: password
     ```
     
-Insegnate 2:
+* Insegnate 2:
 
     ```
     
@@ -114,7 +114,7 @@ Insegnate 2:
     password: password
     ```
     
-CLassi:
+* CLassi:
     I sez. A ,
     I sez. B
 
