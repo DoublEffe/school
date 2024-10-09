@@ -128,9 +128,9 @@ La sezione Insegnante è divisa in tre parti:
 <!-- MARKDOWN LINKS & IMAGES -->
 [Angular.io]: https://angular.io/
 [Angular-url]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-design-kit]: https://img.shields.io/badge/Angular%20Material-8A2BE2
+[Angular-design-kit]: https://img.shields.io/badge/Angular%20Design%20Kit-8A2BE2
 [Angular-material.io]: https://design-angular-kit.vercel.app/design-angular-kit#/info/welcome
-[Laravel]: https://img.shields.io/badge/Laravel-8A2BE2
+[Laravel]: https://img.shields.io/badge/Laravel-DD0031?style=for-the-badge&logo=laravel&logoColor=white
 [laravel]: https://laravel.com/
 [postGreSQL]: https://img.shields.io/badge/PostGreSQL-8A2BE2
 [postgresql]: https://www.postgresql.org/
