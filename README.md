@@ -106,11 +106,10 @@ Saranno 2 studenti, 2 insegnanti e 2 classi.
     ```
     
 * Insegnate 2:
-
-    ```
-    
+    ```sh
     email: insegnante21@test.com
-    
+    ```
+    ```sh
     password: password
     ```
     
