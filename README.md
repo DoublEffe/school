@@ -80,26 +80,31 @@ La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno imm
 
 Ogni credenziale verrà fornita dall'istituto scolastico all'iscrizione, essendo questa una demo di seguito ci sono le credenziali.
 Saranno 2 studenti, 2 insegnanti e 2 classi.
+
 Studente 1:
     ```
     email: studente1@test.com
     password: password
     ```
+    
 Studente 2:
     ```
     email: studente2@test.com
     password: password
     ```
+    
 Insegnate 1:
     ```
     email: insegnante1@test.com
     password: password
     ```
+    
 Insegnate 2:
     ```
     email: insegnante21@test.com
     password: password
     ```
+    
 CLassi:
     I sez. A
     I sez. B
