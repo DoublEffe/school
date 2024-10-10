@@ -47,11 +47,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Spiegazione progetto
-Questo progetto mira ad aiutare gli studenti e gli insegnanti della scuola pubblica italiana.
-Per quanto riguarda gli studenti la demo permette di visualizzare i compiti assegnati dagli insegnati divisi per materia inoltre è possibile
-avvalersi dell'uso di un IA per chiedere eventuali spiegazioni di supporto un pò come fosse un tutor personale.
-Per gli insegnnati è possibile assegnare i compiti per materia e per classe, visulizzare le risposte degli studenti divisi per classe e attraverso l'IA vedere delle ststistiche su quali materie gli studenti abbiano avuto difficoltà.
-In questo progetto inoltre si propone di raccogliere tutto il materiale scolastico a licenza libera in modo da usare quello per archivio esercizi e per aiutare gli studenti in difficoltà economica.
+Questo progetto mira ad aiutare gli studenti e gli insegnanti della scuola pubblica italiana. Per quanto riguarda gli studenti la demo permette di visualizzare i compiti assegnati dagli insegnanti divisi per materia inoltre è possibile avvalersi dell'uso di un IA per chiedere eventuali spiegazioni di supporto un pò come fosse un tutor personale. Per gli insegnanti è possibile assegnare i compiti per materia e per classe, visualizzare le risposte degli studenti divisi per classe e attraverso l'IA vedere delle statistiche su quali materie gli studenti abbiano avuto difficoltà. In questo progetto inoltre si propone di raccogliere tutto il materiale scolastico a licenza libera in modo da usare quello per archivio esercizi e per aiutare gli studenti in difficoltà economica.
 <p align="right">(<a href="#readme-top">torna all'inizio</a>)</p>
 
 
@@ -74,7 +70,7 @@ inoltre il frontend è stato sviluppato usando il kit angular conforme alle Line
 <!-- USAGE EXAMPLES -->
 ## Come Usare
 
-La prima cosa che si vede all'apertura è la pagina di login dove si dovrnno immettere email, password e se si intende efettuare il login come insegnate o studente.
+La prima cosa che si vede all'apertura è la pagina di login dove si dovranno immettere email, password e se si intende effettuare il login come insegnante o studente.
 
 ![Login screen shoot](https://github.com/DoublEffe/school/blob/main/images/login.png)
 
