@@ -6,7 +6,7 @@
 <div align="center">
  
   <h3 align="center">SCHOOL AI ASSISTANT</h3>
-  <img src="https://github.com/DoublEffe/school/blob/main/images/tabler_school.svg" width="80" height="80">
+  <img src="https://github.com/DoublEffe/school/blob/main/images/tabler_school.svg" width="100" height="100">
   <p align="center">
     Una pagina web per supportare sia insegnanti che studenti della scuola pubblica italiana.
     <br />
